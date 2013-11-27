@@ -26,6 +26,6 @@ cd $new_dir
 
 rename 's/default/'$name'/g' *
 sed -i '' 's/default/'$name'/g' *
-sed -i '' 's/default/'$name'/g' .vimrcustom
+sed -i '' 's/default/'$name'/g' .vimrc
 
 vim
