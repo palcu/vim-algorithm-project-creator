@@ -1,4 +1,4 @@
-open default.out
-vs default.cpp
-wincmd l
-sp default.in
+silent open default.out
+silent vs default.cpp
+silent wincmd l
+silent sp default.in
