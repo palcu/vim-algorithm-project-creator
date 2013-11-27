@@ -1,7 +1,7 @@
-silent open adunare.out
+silent open default.out
 setlocal ar
-silent vs adunare.cpp
+silent vs default.cpp
 silent wincmd l
-silent sp adunare.in
+silent sp default.in
 nmap <silent> <F9> :wincmd h <CR> :SCCompileRun <CR><CR><CR><CR>
 nmap <silent> <F10> :! <CR>
