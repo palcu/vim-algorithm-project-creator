@@ -44,17 +44,17 @@ typedef vector<int> vi;
 
 // Helpers
 template <typename T> inline void dbv(const T * v, const char * name, int n){
-	fprintf(stderr, "=== %s ===\n", name);
-	for(int i=0; i<n; i++)
-		cerr << v[i] << " ";
-	cerr << '\n';
+    fprintf(stderr, "=== %s ===\n", name);
+    for(int i=0; i<n; i++)
+        cerr << v[i] << " ";
+    cerr << '\n';
 }
 template<typename T> void dbw(const std::vector<T>& t, const char * name){
-	fprintf(stderr, "=== %s ===\n", name);
-	unsigned n = t.size();
-	for(typename std::vector<T>::size_type i=0; i<n; ++i)
-		std::cerr << t[i] << ' ';
-	cerr << '\n';
+    fprintf(stderr, "=== %s ===\n", name);
+    unsigned n = t.size();
+    for(typename std::vector<T>::size_type i=0; i<n; ++i)
+        std::cerr << t[i] << ' ';
+    cerr << '\n';
 }
 
 // Structs
@@ -67,14 +67,14 @@ const int INF = 0x3f3f3f3f;
 
 // Functions
 int main(){
-	ios_base::sync_with_stdio(false);
-	#ifndef ONLINE_JUDGE
-	ifstream fin("default.in");
-	ofstream fout("default.out");
-	#endif
-	
-	
-	
-	fin.close(); fout.close(); return 0;
+    ios_base::sync_with_stdio(false);
+    #ifndef ONLINE_JUDGE
+    ifstream fin("default.in");
+    ofstream fout("default.out");
+    #endif
+    
+    
+    
+    fin.close(); fout.close(); return 0;
 }
 
