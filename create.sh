@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Modify this
-default_template_location='/home/alex/.default_cpp/'
-new_project_location='/home/alex/Desktop/'
+default_template_location='/Users/alex/.default_cpp/'
+new_project_location='/Users/alex/Desktop/'
 
 if [ -z $1 ]; then
 	echo 'No name for project'
@@ -25,6 +25,7 @@ cp -r $old_dir $new_dir
 cd $new_dir
 
 rename 's/default/'$name'/g' *
-sed -i 's/default/'$name'/g' *
+sed -i '' 's/default/'$name'/g' *
+sed -i '' 's/default/'$name'/g' .vimrcustom
 
 vim
