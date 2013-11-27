@@ -5,27 +5,27 @@
  * http://palcu.blogspot.com/
 ****************************************************/
 
-#include <vector>
+#include <algorithm>
+#include <bitset>
+#include <climits>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <deque>
+#include <fstream>
+#include <iostream>
+#include <iterator>
+#include <limits>
 #include <list>
 #include <map>
-#include <set>
-#include <deque>
-#include <stack>
 #include <queue>
-#include <bitset>
-#include <algorithm>
-#include <utility>
-#include <iostream>
-#include <cstdio>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <iterator>
-#include <cstring>
-#include <climits>
-#include <limits>
-#include <fstream>
+#include <set>
 #include <sstream>
+#include <stack>
+#include <utility>
+#include <vector>
 
 using namespace std;
 
