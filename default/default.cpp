@@ -1,8 +1,8 @@
 /***************************************************
  * Alex Palcuie
- * Romania - 2013
+ * Romania - 2015
  * alex [dot] palcuie [at] gmail [dot] com
- * http://palcu.blogspot.com/
+ * http://blog.palcu.ro/
 ****************************************************/
 
 #include <algorithm>
