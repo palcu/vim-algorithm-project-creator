@@ -68,9 +68,10 @@ const int INF = 0x3f3f3f3f;
 
 // Functions
 int main(){
-    ifstream fin("default.in");
-    ofstream fout("default.out");
-    
+    #ifndef ONLINE_JUDGE
+    freopen("default.in", "r", stdin);
+    freopen("default.out", "w", stdout);
+    #endif
     
     
     return 0;
