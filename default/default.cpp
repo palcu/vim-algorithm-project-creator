@@ -5,6 +5,8 @@
  * http://blog.palcu.ro/
 ****************************************************/
 
+#include <unordered_set>
+#include <unordered_map>
 #include <algorithm>
 #include <bitset>
 #include <climits>
