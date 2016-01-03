@@ -41,8 +41,7 @@ int main() {
     freopen("default.out", "w", stdout);
     #endif
     
-    tuple<string, int, float> x {"a", 1, 3.14};
-    cerr << get<3>(x) << endl;
+
     
     return 0;
 }
